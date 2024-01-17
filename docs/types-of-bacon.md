@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Common Types of Bacon
-permalink: types-of-bacon
 ---
 
 ### Pork Belly Bacon
