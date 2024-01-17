@@ -9,6 +9,13 @@ p {
   margin-bottom: 2rem;
 }
 
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Oswald', sans-serif,
+}
+
 h2 {
   font-weight: 700;
   font-size: 1.5rem;
