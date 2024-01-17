@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Common Types of Bacon
-permalink: makin-baacon/types-of-bacon
+permalink: types-of-bacon
 ---
 
 ### Pork Belly Bacon
