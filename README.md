@@ -1,77 +1,40 @@
-# Static website boilerplate
+# Makin' Bacon website
 
-This repo is a template of a static website that supports internationalization. 
-It uses Jekyll, esbuild, and Tailwind CSS.
-Ready to use with Github Pages.
+This repo stores the working files for makinbacon.net.
 
-Check out the `gh-pages` branch on this repo or visit the [Github Pages endpoint](https://vaharoni.github.io/static-site-boilerplate/) 
-to see what the output of the template looks like.
+Please feel free to contribute! You can create an issue, a pull request or you can comment on the website by visiting the [Facebook group](https://www.facebook.com/groups/makinbaconworld).
 
-## Contents
+We want this site to be useful to all, especially beginners to the world of making bacon!
 
-- [Jekyll](https://jekyllrb.com/) and 
-[Jekyll Multiple Languages](https://github.com/kurtsson/jekyll-multiple-languages-plugin) for static HTML generation
-- [esbuild](https://esbuild.github.io/) for Javascript bundling
-- [Tailwind CSS](https://tailwindcss.com/) for auto-generating CSS utility classes
-- A base layout and a sitemap that supports i18n by generating alternate language links  
-- A [Github action](https://docs.github.com/en/actions) that runs the build pipeline in production, 
-enabling Jekyll plugins that Github does not support by default
-- Utility scripts to run the build pipeline in development 
+## High level goals for the site
 
-## Serving your site in production
+From a technical perspective, the high level site goals are:
 
-When forking, remember to:
-- update the `baseurl` entry in [docs/_config.yml](docs/_config.yml) so that your links point to the right location
-- if you're using Github Pages to serve the website from a custom domain, add a `docs/CNAME` file with your 
-domain (e.g. `www.example.com`). Refer to [Github's documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
-on custom domains.
+- Be accessible to all users
+- Mobile-friendly - display correctly on mobile and larger screens
+- Works on light and dark mode
 
-To serve ths site using Github pages, go to the Repo's Settings > Pages, and update the Source option to the 
-root directory of the `gh-pages` branch. This branch is updated automatically by the build pipeline every time you
-push an update to the `main` branch. 
+From a content perspective, the high level site goals are:
 
-## CSS
+- Offer beginners a guide to the process, with strong resources and helpful information
+- Offer resources to more advanced users, such as recipes and equipment and process guides
+- Ensure that all users understand the pros and cons (and risks) involved
 
-To apply standard styles on your HTML tags without repeating utility classes for each instance, update 
-[docs/assets/stylesheets/tailwind.css](docs/assets/stylesheets/tailwind.css) per 
-[Tailwind's documentation](https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer).
+## Building this site yourself
 
-To DRY components that rely on many Tailwind CSS classes, you could:
-- render them in HTML by creating the `docs/_includes` folder and following [Jekyll's documentation](https://jekyllrb.com/docs/includes/) on includes
-- render them in Javascript using a library like React
+If you would like to build the site yourself, you should be able to do so quite easily.
 
-## Javascript
+Core technologies:
 
-Thanks to esbuild, you can use ES6 and CommonJS modules, Typescript, and React out of the box.
-Add javascript files to the `docs/assets/javascripts` folder, and import them into `app.js` as usual.
-They will all be bundled into a single `docs/_site/assets/javascripts/main.js` file that the base layout includes.
+- Jekyll (static site generator)
+- Ruby (minimal knowledge, the language Jekyll is built with)
+- Tailwind CSS for styling
+- NPM or Yarn to build the Tailwind stylesheet
 
-To add a javascript library, run `yarn add ...` and import it in your javascript files.
+Clone down this repo, make sure you have Ruby installed. To run the site locally, run:
 
-## Jekyll plugin
+```
+bin/dev
+```
 
-To add a Jekyll plugin, run `bundle add ...` per the plugin's instructions and load it by updating the `plugins`
-entry in `docs/_config.yml`.
-
-## Sitemap
-
-The [sitemap.xml](docs/sitemap.xml) file generates I18n alternate links. It is quite basic.
-If you need more control over the last modified or change frequency fields,
-refer to [this article](http://www.independent-software.com/generating-a-sitemap-xml-with-jekyll-without-a-plugin.html)
-or use one of the sitemap plugins for Jekyll.
-
-## The build pipeline
-
-When pushing changes to the `main` branch on Github, the [.github/workflows/build.yml](.github/workflows/build.yml) 
-Github Action runs the [bin/build](bin/build) script, and commits the resulting files in `docs/_site` into 
-the `gh-pages` branch at its root. 
-
-[bin/build](bin/build) performs the following:
-- Jekyll processes files in the `docs` folder, generating static files in `docs/_site`
-- esbuild bundles [docs/assets/javascripts/app.js](docs/assets/javascripts/app.js) to `docs/_site/assets/javascripts/main.js`
-- Tailwind bundles [docs/assets/stylesheets/tailwind.css](docs/assets/stylesheets/tailwind.css) to `docs/_site/assets/stylesheets/main.css`
-
-## Local development
-
-Run [bin/dev](bin/dev) to have Jekyll, esbuild, and Tailwind watch for files and recreate `docs/_site` using Foreman.
-Your site is served from [http://localhost:4000](http://localhost:4000) using Webrick as usual.
+Which will run Jekyll and the Tailwind server.

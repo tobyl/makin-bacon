@@ -13,6 +13,6 @@ Or you might be someone who enjoys making their own food and taking control over
 
 The great news is that making your own bacon is **CHEAP**, **EASY** and very safe if you follow some simple rules!
 
-<a class="bg-green-600 text-green-50 py-4 px-8 rounded-md uppercase font-medium tracking-wide" href="/the-process">
+<a class="bg-maroon-600 text-emerald-50 py-4 px-8 rounded-md uppercase font-medium tracking-wide hover:bg-emerald-700" href="/the-process">
     Get Started
 </a>

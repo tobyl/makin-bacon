@@ -4,7 +4,7 @@ title: Recipes
 permalink: recipes
 ---
 
-Regardless of what these recipes may call for, the recommended amount of cure #1 is 1 tsp per 5 pounds of meat.&nbsp; Please adjust the quantity accordingly. Makinbacon.net is not responsible for any illness or injury caused by the process of makin' homemade bacon.
+Regardless of what these recipes may call for, the recommended amount of cure #1 is 1 tsp per 5 pounds of meat. Please adjust the quantity accordingly. Makinbacon.net is not responsible for any illness or injury caused by the process of makin' homemade bacon.
 
 <a href="https://www.makinbacon.net/eq-curing" target="_self">EQ Bacon Cure (remember, you can always add extra spices)</a>
 
