@@ -1,6 +1,6 @@
 # Change this to your endpoint.
 # Note: In development, `yarn watch:html` script defined in package.json overrides this with an empty string
-baseurl: https://tobyl.github.io/makin-bacon/
+baseurl: https://makinbacon.net
 
 # First language is the default language
 languages: ["en"]
