@@ -27,7 +27,7 @@ title:
 
 <div class="">
     <div class="mb-10">
-        <a href="#" class="block bg-maroon-500 text-maroon-50 text-sm text-center tracking-wide font-medium uppercase border-none rounded-md py-2 hover:text-white hover:bg-maroon-600">
+        <a href="https://digging-dog.vercel.app/" class="block bg-maroon-500 text-maroon-50 text-sm text-center tracking-wide font-medium uppercase border-none rounded-md py-2 hover:text-white hover:bg-maroon-600" target="_blank">
             Cure Calculator
         </a>
     </div>

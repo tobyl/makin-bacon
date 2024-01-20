@@ -12,15 +12,25 @@ Regardless of what these recipes may call for, the recommended amount of cure #1
 
 <a href="/eq-curing" target="_self">EQ Bacon Cure (remember, you can always add extra spices)</a>
 
-### Links
+<a href="https://digging-dog.vercel.app/">Try our EQ curing calculator!</a>
+
+<div class="md:grid md:grid-cols-2">
+<div>
+
+<h3>Links</h3>
 
 <ul class="">
+<li><a href="https://www.facebook.com/groups/makinbaconworld" target="_blank">Join our Facebook group!</a></li>
 <li><a href="https://www.garlicandzest.com/homemade-applewood-smoked-bacon/" target="_blank">Applewood Smoked Bacon</a></li>
 <li><a href="https://www.homemadeitaliancooking.com/maple-espresso-homemade-bacon/" target="_blank">Maple and Espresso Homemade Bacon</a></li>
 <li><a href="https://www.cookingchanneltv.com/recipes/maple-cured-bacon-3414620" target="_blank">Maple Cured Bacon</a></li>
+<li><a href="https://www.localfoodheroes.com/universal-cure-calculator/" target="_blank">Universal Curing Calculator</a></li>
 </ul>
 
-### PDF files
+</div>
+<div>
+
+<h3>PDF files</h3>
 
 <ul class="">
 <li><a href="{{ site.baseurl_root }}/assets/docs/apple-butter-bacon-cure.pdf" target="_blank">Apple Butter Bacon Cure (PDF)</a></li>
@@ -31,6 +41,9 @@ Regardless of what these recipes may call for, the recommended amount of cure #1
 <li><a href="{{ site.baseurl_root }}/assets/docs/smoked-pork-belly-burnt-ends.pdf" target="_blank">Smoked Pork Belly Burnt Ends (PDF)</a></li>
 <li><a href="{{ site.baseurl_root }}/assets/docs/spicy-canadian-bacon.pdf" target="_blank">Spicy Canadian Bacon (PDF)</a></li>
 </ul>
+
+</div>
+</div>
 
 ### Videos
 
