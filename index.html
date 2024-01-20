@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Makin' Bacon! Welcome!</title>
+  <title>Makin' Bacon! </title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
@@ -36,10 +36,13 @@
 </head>
 
 <body class="min-h-full flex flex-col">
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=547817592004981" nonce="TRFWMvm4"></script>
   <header class="relative">
   
-    <img class="w-full mb-8" src="https://makinbacon.net/assets/images/sizzle.gif" />
-    
+    <div class="h-[50vw] max-h-[500px]" style="background-image: url('https://makinbacon.net/assets/images/sizzle.gif'); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div>    
+  
+  </div>
   <div class="absolute top-0 w-full h-full flex flex-col justify-center items-center gap-6 text-white">
     <h1 class="font-oswald font-light text-5xl uppercase text-center" style="text-shadow: 1px 1px 3px rgb(0 0 0 / 0.8);">
       <a href="/">Makin' Bacon</a>
@@ -61,7 +64,7 @@
         <svg class="h-8 w-8 text-slate-100"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="18" y1="6" x2="6" y2="18" />  <line x1="6" y1="6" x2="18" y2="18" /></svg>
       </button>
     </div>
-    <div id="desktopNav" class="hidden md:block font-oswald uppercase">
+    <nav id="desktopNav" class="hidden md:block font-oswald uppercase">
       <ul class="flex gap-4 mb-0 mt-4">
         <li><a href="/types-of-bacon">Types of bacon</a></li>
 <li><a href="/what-you-will-need">What you'll need</a></li>
@@ -69,7 +72,7 @@
 <li><a href="/frequently-asked-questions">FAQs</a></li>
 <li><a href="/resources">Resources</a></li>
       </ul>
-    </div>
+    </nav>
     
       <a class="bg-maroon-500 text-emerald-50 py-2 px-4 md:py-4 md:px-8 rounded-md uppercase font-medium tracking-wide hover:bg-maroon-600 transition-colors border border-maroon-300 hover:border-maroon-700" href="/the-process">
           Get Started
@@ -78,32 +81,63 @@
   </div>
 </header>
 
-  <main class="grow container px-4 mx-auto">
+  <main class="grow container px-4 mx-auto my-8 leading-6">
     
-  <h2>Welcome!</h2>
 
+<div class="md:flex gap-12 lg:gap-20">
 
-<p>This website was created as a beginner’s guide to the craft of making homemade bacon. We hope that bacon makers of all experience levels find this guide useful in their quest to make the perfect bacon.</p>
+<div>
 
-<h3 id="why-make-your-own-bacon">Why make your own bacon?</h3>
+<h2>Why make your own bacon?</h2>
 
-<p>For the lifelong bacon fans among us, the journey to homemade bacon is probably very similar. You’ve been buying from the supermaket, but over the years you notice that the quality has gradually dropped, slices are thinner and less meaty, and prices have steadily risen. You may have rejoiced when “extra thick cut” bacon became a more common (albeit pricier) option, only to be disappointed after a few months when the quality dropped there too.</p>
+<p>For the lifelong bacon fans among us, the journey to homemade bacon is probably very similar. You've been buying from the supermaket, but over the years you notice that the quality has gradually dropped, slices are thinner and less meaty, and prices have steadily risen.</p>
+
+<p>You may have rejoiced when "extra thick cut" bacon became a more common (albeit pricier) option, only to be disappointed after a few months when the quality dropped there too.</p>
 
 <p>Or you might be someone who enjoys making their own food and taking control over what you eat.</p>
 
 <p>The great news is that making your own bacon is <strong>CHEAP</strong>, <strong>EASY</strong> and very safe if you follow some simple rules!</p>
 
-<p><a class="bg-maroon-600 text-emerald-50 py-4 px-8 rounded-md uppercase font-medium tracking-wide hover:bg-emerald-700" href="/the-process">
-    Get Started
-</a></p>
+<p>
+    <a class="bg-maroon-600 text-maroon-50 py-4 px-8 rounded-md uppercase font-medium tracking-wide hover:bg-maroon-700 hover:text-white" href="/the-process">
+        Get Started
+    </a>
+</p>
+
+</div>
+
+<div class="">
+    <div class="mb-10">
+        <a href="#" class="block bg-maroon-500 text-maroon-50 text-sm text-center tracking-wide font-medium uppercase border-none rounded-md py-2 hover:text-white hover:bg-maroon-600">
+            Cure Calculator
+        </a>
+    </div>
+    <div id="fb-group">
+        <div class="fb-group" data-href="https://www.facebook.com/groups/makinbaconworld/" data-width="300" data-show-metadata="true">
+        <blockquote cite="https://www.facebook.com/groups/makinbaconworld/" class="fb-xfbml-parse-ignore">Makin&#039; Bacon (The Original)</blockquote></div>
+    </div>
+</div>
+
+</div>
 
 
   </main>
 
-  <footer class="p-4 text-center">
-  <div class="text-sm text-slate-500">
-    © <span id="get-current-year"></span>
-  </div>
+  <footer class="p-4 bg-slate-500">
+  <div class="container mx-auto">
+    <div class="grid text-sm text-slate-50 md:grid-cols-2">
+      <div id="common-links">
+        <ul>
+          <li><a href="/types-of-bacon">Types of bacon</a></li>
+<li><a href="/what-you-will-need">What you'll need</a></li>
+<li><a href="/the-process">The process</a></li>
+<li><a href="/frequently-asked-questions">FAQs</a></li>
+<li><a href="/resources">Resources</a></li>
+        </ul>
+        <p>© <span id="get-current-year"></span></p>
+      </div>
+    </div>
+  </div> <!-- container -->
 </footer>
 
   <script type="text/javascript" src="https://makinbacon.net/assets/javascripts/main.js"></script>

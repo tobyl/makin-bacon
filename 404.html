@@ -36,10 +36,13 @@
 </head>
 
 <body class="min-h-full flex flex-col">
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=547817592004981" nonce="TRFWMvm4"></script>
   <header class="relative">
   
     <img class="w-full mb-8" src="https://makinbacon.net/assets/images/bacon-header.jpg" />
   
+  </div>
   <div class="absolute top-0 w-full h-full flex flex-col justify-center items-center gap-6 text-white">
     <h1 class="font-oswald font-light text-5xl uppercase text-center" style="text-shadow: 1px 1px 3px rgb(0 0 0 / 0.8);">
       <a href="/">Makin' Bacon</a>
@@ -61,7 +64,7 @@
         <svg class="h-8 w-8 text-slate-100"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="18" y1="6" x2="6" y2="18" />  <line x1="6" y1="6" x2="18" y2="18" /></svg>
       </button>
     </div>
-    <div id="desktopNav" class="hidden md:block font-oswald uppercase">
+    <nav id="desktopNav" class="hidden md:block font-oswald uppercase">
       <ul class="flex gap-4 mb-0 mt-4">
         <li><a href="/types-of-bacon">Types of bacon</a></li>
 <li><a href="/what-you-will-need">What you'll need</a></li>
@@ -69,12 +72,12 @@
 <li><a href="/frequently-asked-questions">FAQs</a></li>
 <li><a href="/resources">Resources</a></li>
       </ul>
-    </div>
+    </nav>
     
   </div>
 </header>
 
-  <main class="grow container px-4 mx-auto">
+  <main class="grow container px-4 mx-auto my-8 leading-6">
     <div class="min-h-full pt-16 pb-12 bg-white">
     <div class="py-16">
       <div class="text-center">
@@ -95,10 +98,21 @@
 
   </main>
 
-  <footer class="p-4 text-center">
-  <div class="text-sm text-slate-500">
-    © <span id="get-current-year"></span>
-  </div>
+  <footer class="p-4 bg-slate-500">
+  <div class="container mx-auto">
+    <div class="grid text-sm text-slate-50 md:grid-cols-2">
+      <div id="common-links">
+        <ul>
+          <li><a href="/types-of-bacon">Types of bacon</a></li>
+<li><a href="/what-you-will-need">What you'll need</a></li>
+<li><a href="/the-process">The process</a></li>
+<li><a href="/frequently-asked-questions">FAQs</a></li>
+<li><a href="/resources">Resources</a></li>
+        </ul>
+        <p>© <span id="get-current-year"></span></p>
+      </div>
+    </div>
+  </div> <!-- container -->
 </footer>
 
   <script type="text/javascript" src="https://makinbacon.net/assets/javascripts/main.js"></script>
