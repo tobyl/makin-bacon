@@ -6,7 +6,7 @@ permalink: the-process
 
 Making your own bacon might seem daunting, but it's actually quite a simple process. There are three basic steps:
 
-<ol class="text-xl list-inside list-decimal" role="list">
+<ol class="text-lg font-medium list-inside list-decimal" role="list">
     <li class="mb-4">You'll need a piece of meat to start with. Check out the <a href="/types-of-bacon">Types of Bacon page</a> to determine which cut will work best for you.</li>
     <li class="mb-4">You'll need to "cure" the meat. Curing is a method of preserving food by removing moisture, making the food more resistant to bacteria.</li>
     <li class="mb-4">Finally, you'll need a way to add smoke flavour. Unsurprisingly, this is done with... smoke!</li>
@@ -18,7 +18,7 @@ Depending upon your location, the term "bacon" might mean one of a few different
 
 ### Curing the meat
 
-Curing is often seen as the most daunting part of the process. People are often worried about how safe the end product will be, but with a minimal amount of knowledge you can cure meat safely and conveniently. The cure is typically a mix of salt and sugar, with the optional addition of a "curing salt". You can read more about it on our <a href="/curing-salts">curing salt page</a>.
+Curing is often seen as the most daunting part of the process. People are often worried about how safe the end product will be, but with a minimal amount of knowledge you can cure meat safely and conveniently. The cure is typically a mix of salt and sugar, with the optional addition of a "curing salt". You can read more about it on our <a href="/curing-salts">curing salt page</a>. Check out the curing page for more detail, and make sure you read up on curing salts
 
 With the help of a cure calculator, you can determine the amount of salt, sugar and curing salt required. The cure can be applied "dry", by rubbing all over the meat, or "wet" by mixing with water and soaking the meat in the brine. The most precise and effective method is dry curing, and therefore is the most common once people become more familiar with the process.
 

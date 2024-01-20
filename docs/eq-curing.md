@@ -4,16 +4,18 @@ title: EQ Curing
 permalink: eq-curing
 ---
 
-## Eq (Equilibrium Curing)
+### Eq (Equilibrium Curing)
 
 Although there are many bacon recipes and curing techniques out there, there is one that is a relatively modern technique that may work well for both a novice and experienced bacon maker. 
 
 This is called the EQ or "Equilibrium" curing method.  It's quite simple really.  A gram scale is typically used to weigh the meat.  This weight is then entered into a "cure calculator" that will determine the proper amounts of salt, sugar, and cure #1 according to preset percentages (these percentages can be adjusted for taste).  Typically, salt is set at 2% of the meat's weight and sugar at 1%. Cure #1 contains 6.25% nitrite and is translated through the formula to .25% of the weight of the meat.
 
-## STEPS for DRY EQ CURE:
+### Steps for dry EQ cure
 
 1. Weigh the boneless meat in grams.
+
 2. Insert the weight of the meat into one of the EQ calculators (links on this page). You may have to choose skin on/off and US or EUR.
+
 3.  The calculator will compute the suggested amounts of salt, sugar, and cure per the weight of the meat. Remember, the levels of the salt and sugar can be adjusted per taste and that different calculators may have different preset percentages of salt and sugar. 
 4. Once the amounts are determined, measure them out on a gram scale and place in a small bowl or container (the tare function is very helpful with this step).
 5. Place the meat in a container close to its size and carefully spread the cure mix onto the meat (it may seem like a small amount compared to using a typical rub for other meats).

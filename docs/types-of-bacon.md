@@ -4,6 +4,8 @@ title: Common Types of Bacon
 permalink: types-of-bacon
 ---
 
+Let's get this straight - you can cut turkey, chicken or anything else into thin strips and fry it. That ain't bacon! Bacon is cured and smoked pork, but there are a few different cuts of pork you can use. 
+
 ### Pork Belly Bacon
 
 Pork belly is used for making the most popular type of bacon.  This is the same type of bacon that you see packaged in the supermarket.  Pork belly is by definition, a boneless cut of fatty meat from the belly of the pig. This cut is typically sold in large slabs which are on average around 10-15 pounds, and it usually costs between $3.00 and $5.00 per pound in the U.S.  A fresh pork belly can be between 1 1/2 to 2 1/2 inches thick.  Some bellies are sold with the skin on.  The skin can be removed with a sharp knife before curing, or it can be easily peeled away from the meat after hot smoking.  If you prefer to cold smoke the bacon and you want the skin removed, it is suggested to removed prior to smoking. 

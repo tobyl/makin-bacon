@@ -38,9 +38,11 @@
 </head>
 
 <body class="min-h-full flex flex-col">
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=547817592004981" nonce="TRFWMvm4"></script>
   {% include header.html %}
 
-  <main class="grow container px-4 mx-auto">
+  <main class="grow container px-4 mx-auto my-8 leading-6">
     {{ content }}
   </main>
 

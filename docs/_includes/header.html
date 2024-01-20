@@ -1,9 +1,10 @@
 <header class="relative">
   {% if page.url == "/" %}
-    <img class="w-full mb-8" src="{{ site.baseurl_root }}/assets/images/sizzle.gif" />
-    {% else %}
+    <div class="h-[50vw] max-h-[500px]" style="background-image: url('{{ site.baseurl_root }}/assets/images/sizzle.gif'); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div>    
+  {% else %}
     <img class="w-full mb-8" src="{{ site.baseurl_root }}/assets/images/bacon-header.jpg" />
   {% endif %}
+  </div>
   <div class="absolute top-0 w-full h-full flex flex-col justify-center items-center gap-6 text-white">
     <h1 class="font-oswald font-light text-5xl uppercase text-center" style="text-shadow: 1px 1px 3px rgb(0 0 0 / 0.8);">
       <a href="/">Makin' Bacon</a>
@@ -21,11 +22,11 @@
         <svg class="h-8 w-8 text-slate-100"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="18" y1="6" x2="6" y2="18" />  <line x1="6" y1="6" x2="18" y2="18" /></svg>
       </button>
     </div>
-    <div id="desktopNav" class="hidden md:block font-oswald uppercase">
+    <nav id="desktopNav" class="hidden md:block font-oswald uppercase">
       <ul class="flex gap-4 mb-0 mt-4">
         {% include nav.html %}
       </ul>
-    </div>
+    </nav>
     {% if page.url == "/" %}
       <a class="bg-maroon-500 text-emerald-50 py-2 px-4 md:py-4 md:px-8 rounded-md uppercase font-medium tracking-wide hover:bg-maroon-600 transition-colors border border-maroon-300 hover:border-maroon-700" href="/the-process">
           Get Started

@@ -1,5 +1,12 @@
-<footer class="p-4 text-center">
-  <div class="text-sm text-slate-500">
-    © <span id="get-current-year"></span>
-  </div>
+<footer class="p-4 bg-slate-500">
+  <div class="container mx-auto">
+    <div class="grid text-sm text-slate-50 md:grid-cols-2">
+      <div id="common-links">
+        <ul>
+          {% include nav.html %}
+        </ul>
+        <p>© <span id="get-current-year"></span></p>
+      </div>
+    </div>
+  </div> <!-- container -->
 </footer>
