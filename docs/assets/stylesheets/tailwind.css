@@ -80,3 +80,10 @@ body {
     @apply border-transparent text-maroon-500;
   }
 }
+
+/* kofi */
+
+.floatingchat-container-wrap {
+  left: auto !important;
+  right: 20px !important;
+}

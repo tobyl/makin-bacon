@@ -11,10 +11,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="English">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/stylesheets/main.css"/>
+  <link rel="stylesheet" href="{{ site.baseurl_root }}/assets/stylesheets/tailwind2.css" />
 
   <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl_root }}/assets/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl_root }}/assets/favicon/apple-icon-60x60.png">
@@ -36,7 +33,7 @@
 
   <meta property="og:url" content="https://makinbacon.net">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Makin' Bacon! ">
+  <meta property="og:title" content="Makin' Bacon!">
   <meta property="og:description" content="Your first and best resource for making home made smoked, cured bacon! Learn about EQ (Equilibrium curing) and smoking your own delicious bacon recipe.">
   <meta property="og:image" content="https://opengraph.b-cdn.net/production/documents/5fa9db67-4584-4042-989f-9c4f2122e1e1.jpg?token=6hBn6I173AicGnf7Fia0vZuNguEs9P3kXGjOe1IpiUw&height=960&width=720&expires=33241759002">
 
@@ -46,41 +43,15 @@
   <meta name="twitter:title" content="Makin' Bacon! ">
   <meta name="twitter:description" content="Your first and best resource for making home made smoked, cured bacon! Learn about EQ (Equilibrium curing) and smoking your own delicious bacon recipe.">
   <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/documents/5fa9db67-4584-4042-989f-9c4f2122e1e1.jpg?token=6hBn6I173AicGnf7Fia0vZuNguEs9P3kXGjOe1IpiUw&height=960&width=720&expires=33241759002">
-
-
-  {% for lang in site.languages %}
-    {% if lang == site.default_lang %}
-  <link rel="alternate" hreflang="{{ lang }}" href="{{ site.baseurl_root }}{{ page.url | remove: "index.html" | remove: ".html" }}" />
-    {% else %}
-  <link rel="alternate" hreflang="{{ lang }}" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url | remove: "index.html" | remove: ".html" }}" />
-    {% endif %}
-  {% endfor %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F9BGT2JT1F"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-F9BGT2JT1F');
-  </script>
 </head>
 
-<body class="min-h-full flex flex-col">
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=547817592004981" nonce="TRFWMvm4"></script>
-  {% include header.html %}
-
-  <main class="grow container px-4 mx-auto my-8 leading-6">
-    {{ content }}
-  </main>
-
-  {% include footer.html %}
+<body class="">
 
   <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
   <script>
     kofiWidgetOverlay.draw('makinbacon1', {
       'type': 'floating-chat',
-      'floating-chat.donateButton.text': 'Support Us',
+      'floating-chat.donateButton.text': 'Support me',
       'floating-chat.donateButton.background-color': '#00b9fe',
       'floating-chat.donateButton.text-color': '#fff'
     });
